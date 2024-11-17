@@ -37,6 +37,13 @@ const char webpage[] PROGMEM = R"=====(
       <p>Device Status <span id = "Device_status" style="color : rgba(0, 255, 106, 0.857);">offline</span></p>
       <hr style = "width: 70%;">
       <h1>Dashboard</h1>
+      <hr style = "width: 70%;">
+      <div>
+        <button class="button" onclick="send(1)">Fence 1</button>
+        <button class="button" onclick="send(2)">Fence 2</button>
+        <p>Selected Fence: <span id="fence_id">0</span><br></p>
+      </div>
+      <hr style = "width: 40%;">
       <div style="background-color: rgba(89, 154, 211, 0.3);; width: 30%; border-radius: 12px;">
           <table style="text-align: center; " >
               <tr>
@@ -74,6 +81,12 @@ const char webpage[] PROGMEM = R"=====(
                 </tr>
                 <tr>
                     <td><span id="target_status">0</span><br></td>
+                </tr>
+                <tr>
+                    <th>Cumulative Angle</th>
+                </tr>
+                <tr>
+                    <td><span id="angle">0</span><br></td>
                 </tr>
             </table>
           </div>
