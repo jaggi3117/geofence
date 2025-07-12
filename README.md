@@ -118,3 +118,8 @@ Target Status: 1
 * Currently only **one geofence is used** at a time (`fence = 1` is hardcoded).
 * Page served is stored in **Flash Memory** using `PROGMEM` to conserve SRAM.
 
+## 👤 About Me
+Jagmohan Sharma
+Department of Computer Science & Engineering
+Motilal Nehru National Institute of Technology (MNNIT), Allahabad
+Batch of 2026
